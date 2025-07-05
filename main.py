@@ -4,7 +4,7 @@ import requests
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 
-st.set_page_config(page_title="Mutual Fund NAV Comparison", layout="wide")
+st.set_page_config(page_title="Mutual Funds Comparison", layout="wide")
 
 # ---------- Backend Helpers ----------
 @st.cache_data
