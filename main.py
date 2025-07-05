@@ -38,7 +38,7 @@ def filter_by_date(df, period):
     return df[df['date'] >= date_threshold]
 
 # ---------- UI ----------
-st.title("📊 Mutual Fund NAV Comparison Tool")
+st.title("📊 Mutual Funds Comparison Tool")
 
 funds = get_all_funds()
 fund_options = {f['schemeName']: f['schemeCode'] for f in funds}
